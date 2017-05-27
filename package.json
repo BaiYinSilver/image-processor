@@ -1,0 +1,22 @@
+{
+  "name": "image-processor",
+  "version": "1.0.0",
+  "description": "Edit and render images for FE theme",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BaiYinSilver/image-processor.git"
+  },
+  "author": "Yin Bai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BaiYinSilver/image-processor/issues"
+  },
+  "homepage": "https://github.com/BaiYinSilver/image-processor#readme",
+  "dependencies": {
+    "sharp": "^0.17.3"
+  }
+}
