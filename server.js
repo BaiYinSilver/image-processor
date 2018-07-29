@@ -7,8 +7,9 @@ const server = http.createServer();
 server.on('request', (request, response) => {
 
     switch (request.url) {
-        case '/app.json': response.end(fs.readFileSync('./app.json'));
-        default: response.end(fs.readFileSync('./index.html'));
+        case '/app.json': response.end(fs.readFileSync('./app.json')); break;
+        case '/index': response.end(fs.readFileSync('./index.html'));        
+        default: response.end(fs.readFileSync('./front-page.html'));
     }
 
 });
