@@ -8,8 +8,8 @@ server.on('request', (request, response) => {
 
     switch (request.url) {
         case '/app.json': response.end(fs.readFileSync('./app.json')); break;
-        case '/index': response.end(fs.readFileSync('./index.html'));        
-        default: response.end(fs.readFileSync('./front-page.html'));
+        case '/index': response.end(fs.readFileSync('./index.html')); break;        
+        default: response.end(fs.readFileSync('./front-page.html')); break;
     }
 
 });
